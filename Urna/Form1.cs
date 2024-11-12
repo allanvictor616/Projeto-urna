@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace Urna
 {
-    public partial class Form1 : Form
+    public partial class frmUrna : Form
     {
-        public Form1()
+        public frmUrna()
         {
             InitializeComponent();
         }
 
         private void button10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblNomePopular2_Click(object sender, EventArgs e)
         {
 
         }

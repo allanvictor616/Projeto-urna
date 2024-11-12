@@ -1,6 +1,6 @@
 ﻿namespace Urna
 {
-    partial class Form1
+    partial class frmUrna
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -42,7 +42,17 @@
             this.btn3 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
             this.btn1 = new System.Windows.Forms.Button();
+            this.pnlExibicao = new System.Windows.Forms.Panel();
+            this.pctBoxTimes = new System.Windows.Forms.PictureBox();
+            this.lblExibicaoTime = new System.Windows.Forms.Label();
+            this.lblNumero = new System.Windows.Forms.Label();
+            this.lblNomePopular = new System.Windows.Forms.Label();
+            this.lblNomeTime = new System.Windows.Forms.Label();
+            this.lblNomeTime2 = new System.Windows.Forms.Label();
+            this.lblNomePopular2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            this.pnlExibicao.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pctBoxTimes)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -104,9 +114,9 @@
             this.btn0.BackgroundImage = global::Urna.Properties.Resources._0;
             this.btn0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btn0.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn0.Location = new System.Drawing.Point(142, 227);
+            this.btn0.Location = new System.Drawing.Point(142, 243);
             this.btn0.Name = "btn0";
-            this.btn0.Size = new System.Drawing.Size(73, 50);
+            this.btn0.Size = new System.Drawing.Size(74, 56);
             this.btn0.TabIndex = 9;
             this.btn0.UseVisualStyleBackColor = true;
             this.btn0.Click += new System.EventHandler(this.button10_Click);
@@ -116,9 +126,9 @@
             this.btn9.BackgroundImage = global::Urna.Properties.Resources._9;
             this.btn9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btn9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn9.Location = new System.Drawing.Point(236, 171);
+            this.btn9.Location = new System.Drawing.Point(236, 177);
             this.btn9.Name = "btn9";
-            this.btn9.Size = new System.Drawing.Size(73, 50);
+            this.btn9.Size = new System.Drawing.Size(74, 56);
             this.btn9.TabIndex = 8;
             this.btn9.UseVisualStyleBackColor = true;
             // 
@@ -127,9 +137,9 @@
             this.btn8.BackgroundImage = global::Urna.Properties.Resources._8;
             this.btn8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btn8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn8.Location = new System.Drawing.Point(142, 171);
+            this.btn8.Location = new System.Drawing.Point(142, 177);
             this.btn8.Name = "btn8";
-            this.btn8.Size = new System.Drawing.Size(73, 50);
+            this.btn8.Size = new System.Drawing.Size(74, 56);
             this.btn8.TabIndex = 7;
             this.btn8.UseVisualStyleBackColor = true;
             // 
@@ -138,9 +148,9 @@
             this.btn7.BackgroundImage = global::Urna.Properties.Resources._7;
             this.btn7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btn7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn7.Location = new System.Drawing.Point(51, 171);
+            this.btn7.Location = new System.Drawing.Point(50, 177);
             this.btn7.Name = "btn7";
-            this.btn7.Size = new System.Drawing.Size(73, 50);
+            this.btn7.Size = new System.Drawing.Size(74, 56);
             this.btn7.TabIndex = 6;
             this.btn7.UseVisualStyleBackColor = true;
             // 
@@ -149,9 +159,9 @@
             this.btn6.BackgroundImage = global::Urna.Properties.Resources._6;
             this.btn6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btn6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn6.Location = new System.Drawing.Point(236, 115);
+            this.btn6.Location = new System.Drawing.Point(234, 115);
             this.btn6.Name = "btn6";
-            this.btn6.Size = new System.Drawing.Size(73, 50);
+            this.btn6.Size = new System.Drawing.Size(74, 56);
             this.btn6.TabIndex = 5;
             this.btn6.UseVisualStyleBackColor = true;
             // 
@@ -162,7 +172,7 @@
             this.btn5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn5.Location = new System.Drawing.Point(142, 115);
             this.btn5.Name = "btn5";
-            this.btn5.Size = new System.Drawing.Size(73, 50);
+            this.btn5.Size = new System.Drawing.Size(74, 56);
             this.btn5.TabIndex = 4;
             this.btn5.UseVisualStyleBackColor = true;
             // 
@@ -171,9 +181,9 @@
             this.btn4.BackgroundImage = global::Urna.Properties.Resources._4;
             this.btn4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btn4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn4.Location = new System.Drawing.Point(51, 115);
+            this.btn4.Location = new System.Drawing.Point(50, 115);
             this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(73, 50);
+            this.btn4.Size = new System.Drawing.Size(74, 56);
             this.btn4.TabIndex = 3;
             this.btn4.UseVisualStyleBackColor = true;
             // 
@@ -182,9 +192,9 @@
             this.btn3.BackgroundImage = global::Urna.Properties.Resources._3;
             this.btn3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btn3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn3.Location = new System.Drawing.Point(236, 59);
+            this.btn3.Location = new System.Drawing.Point(234, 53);
             this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(73, 50);
+            this.btn3.Size = new System.Drawing.Size(74, 56);
             this.btn3.TabIndex = 2;
             this.btn3.UseVisualStyleBackColor = true;
             // 
@@ -193,9 +203,9 @@
             this.btn2.BackgroundImage = global::Urna.Properties.Resources._2;
             this.btn2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btn2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn2.Location = new System.Drawing.Point(142, 59);
+            this.btn2.Location = new System.Drawing.Point(142, 53);
             this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(73, 50);
+            this.btn2.Size = new System.Drawing.Size(74, 56);
             this.btn2.TabIndex = 1;
             this.btn2.UseVisualStyleBackColor = true;
             // 
@@ -204,21 +214,112 @@
             this.btn1.BackgroundImage = global::Urna.Properties.Resources._1;
             this.btn1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btn1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn1.Location = new System.Drawing.Point(51, 59);
+            this.btn1.Location = new System.Drawing.Point(50, 53);
             this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(73, 50);
+            this.btn1.Size = new System.Drawing.Size(74, 56);
             this.btn1.TabIndex = 0;
             this.btn1.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // pnlExibicao
+            // 
+            this.pnlExibicao.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pnlExibicao.Controls.Add(this.lblNomePopular2);
+            this.pnlExibicao.Controls.Add(this.lblNomeTime2);
+            this.pnlExibicao.Controls.Add(this.lblNomeTime);
+            this.pnlExibicao.Controls.Add(this.lblNomePopular);
+            this.pnlExibicao.Controls.Add(this.lblNumero);
+            this.pnlExibicao.Controls.Add(this.lblExibicaoTime);
+            this.pnlExibicao.Controls.Add(this.pctBoxTimes);
+            this.pnlExibicao.Location = new System.Drawing.Point(39, 179);
+            this.pnlExibicao.Name = "pnlExibicao";
+            this.pnlExibicao.Size = new System.Drawing.Size(548, 397);
+            this.pnlExibicao.TabIndex = 1;
+            // 
+            // pctBoxTimes
+            // 
+            this.pctBoxTimes.BackColor = System.Drawing.Color.White;
+            this.pctBoxTimes.Location = new System.Drawing.Point(403, 14);
+            this.pctBoxTimes.Name = "pctBoxTimes";
+            this.pctBoxTimes.Size = new System.Drawing.Size(128, 122);
+            this.pctBoxTimes.TabIndex = 0;
+            this.pctBoxTimes.TabStop = false;
+            // 
+            // lblExibicaoTime
+            // 
+            this.lblExibicaoTime.AutoSize = true;
+            this.lblExibicaoTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblExibicaoTime.Location = new System.Drawing.Point(156, 59);
+            this.lblExibicaoTime.Name = "lblExibicaoTime";
+            this.lblExibicaoTime.Size = new System.Drawing.Size(207, 33);
+            this.lblExibicaoTime.TabIndex = 1;
+            this.lblExibicaoTime.Text = "Nome do Time";
+            // 
+            // lblNumero
+            // 
+            this.lblNumero.AutoSize = true;
+            this.lblNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumero.Location = new System.Drawing.Point(39, 158);
+            this.lblNumero.Name = "lblNumero";
+            this.lblNumero.Size = new System.Drawing.Size(93, 25);
+            this.lblNumero.TabIndex = 2;
+            this.lblNumero.Text = "Número:";
+            // 
+            // lblNomePopular
+            // 
+            this.lblNomePopular.AutoSize = true;
+            this.lblNomePopular.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomePopular.Location = new System.Drawing.Point(39, 274);
+            this.lblNomePopular.Name = "lblNomePopular";
+            this.lblNomePopular.Size = new System.Drawing.Size(154, 25);
+            this.lblNomePopular.TabIndex = 3;
+            this.lblNomePopular.Text = "Nome Popular:";
+            // 
+            // lblNomeTime
+            // 
+            this.lblNomeTime.AutoSize = true;
+            this.lblNomeTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomeTime.Location = new System.Drawing.Point(39, 220);
+            this.lblNomeTime.Name = "lblNomeTime";
+            this.lblNomeTime.Size = new System.Drawing.Size(74, 25);
+            this.lblNomeTime.TabIndex = 4;
+            this.lblNomeTime.Text = "Nome:";
+            // 
+            // lblNomeTime2
+            // 
+            this.lblNomeTime2.AutoSize = true;
+            this.lblNomeTime2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblNomeTime2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomeTime2.Location = new System.Drawing.Point(119, 220);
+            this.lblNomeTime2.Name = "lblNomeTime2";
+            this.lblNomeTime2.Size = new System.Drawing.Size(26, 27);
+            this.lblNomeTime2.TabIndex = 5;
+            this.lblNomeTime2.Text = "  ";
+            // 
+            // lblNomePopular2
+            // 
+            this.lblNomePopular2.AutoSize = true;
+            this.lblNomePopular2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblNomePopular2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomePopular2.Location = new System.Drawing.Point(199, 274);
+            this.lblNomePopular2.Name = "lblNomePopular2";
+            this.lblNomePopular2.Size = new System.Drawing.Size(26, 27);
+            this.lblNomePopular2.TabIndex = 6;
+            this.lblNomePopular2.Text = "  ";
+            this.lblNomePopular2.Click += new System.EventHandler(this.lblNomePopular2_Click);
+            // 
+            // frmUrna
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1039, 649);
+            this.Controls.Add(this.pnlExibicao);
             this.Controls.Add(this.panel1);
-            this.Name = "Form1";
+            this.Name = "frmUrna";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
+            this.pnlExibicao.ResumeLayout(false);
+            this.pnlExibicao.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pctBoxTimes)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -239,6 +340,14 @@
         private System.Windows.Forms.Button btnCorrige;
         private System.Windows.Forms.Button btnBranco;
         private System.Windows.Forms.Button btnConfirma;
+        private System.Windows.Forms.Panel pnlExibicao;
+        private System.Windows.Forms.Label lblExibicaoTime;
+        private System.Windows.Forms.PictureBox pctBoxTimes;
+        private System.Windows.Forms.Label lblNomeTime2;
+        private System.Windows.Forms.Label lblNomeTime;
+        private System.Windows.Forms.Label lblNomePopular;
+        private System.Windows.Forms.Label lblNumero;
+        private System.Windows.Forms.Label lblNomePopular2;
     }
 }
 
