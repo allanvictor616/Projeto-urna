@@ -91,7 +91,6 @@ namespace Urna
         {
             if (string.IsNullOrEmpty(lblNumero1.Text))
                 lblNumero1.Text = digito;
-
             else
             {
                 lblNumero1.Text = digito;

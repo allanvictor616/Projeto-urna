@@ -30,16 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmUrna));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pnlExibicao = new System.Windows.Forms.Panel();
-            this.lblExibicaoTime = new System.Windows.Forms.Label();
-            this.lblNumero = new System.Windows.Forms.Label();
-            this.lblNomePopular = new System.Windows.Forms.Label();
-            this.lblNomeTime = new System.Windows.Forms.Label();
-            this.lblNomeTime2 = new System.Windows.Forms.Label();
-            this.lblNomePopular2 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.picLogo = new System.Windows.Forms.PictureBox();
-            this.picTimes = new System.Windows.Forms.PictureBox();
             this.btnCorrige = new System.Windows.Forms.Button();
             this.btnBranco = new System.Windows.Forms.Button();
             this.btnConfirma = new System.Windows.Forms.Button();
@@ -53,18 +43,28 @@
             this.btn3 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
             this.btn1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lblNumero1 = new System.Windows.Forms.Label();
-            this.lblNumero2 = new System.Windows.Forms.Label();
-            this.lblNumero3 = new System.Windows.Forms.Label();
+            this.pnlExibicao = new System.Windows.Forms.Panel();
             this.lblNumero4 = new System.Windows.Forms.Label();
+            this.lblNumero3 = new System.Windows.Forms.Label();
+            this.lblNumero2 = new System.Windows.Forms.Label();
+            this.lblNumero1 = new System.Windows.Forms.Label();
+            this.lblNomePopular2 = new System.Windows.Forms.Label();
+            this.lblNomeTime2 = new System.Windows.Forms.Label();
+            this.lblNomeTime = new System.Windows.Forms.Label();
+            this.lblNomePopular = new System.Windows.Forms.Label();
+            this.lblNumero = new System.Windows.Forms.Label();
+            this.lblExibicaoTime = new System.Windows.Forms.Label();
+            this.picTimes = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.picLogo = new System.Windows.Forms.PictureBox();
             this.pnlFim = new System.Windows.Forms.Panel();
             this.lblFim = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.pnlExibicao.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picTimes)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picTimes)).BeginInit();
             this.pnlFim.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -88,119 +88,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(360, 398);
             this.panel1.TabIndex = 0;
-            // 
-            // pnlExibicao
-            // 
-            this.pnlExibicao.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pnlExibicao.Controls.Add(this.lblNumero4);
-            this.pnlExibicao.Controls.Add(this.lblNumero3);
-            this.pnlExibicao.Controls.Add(this.lblNumero2);
-            this.pnlExibicao.Controls.Add(this.lblNumero1);
-            this.pnlExibicao.Controls.Add(this.lblNomePopular2);
-            this.pnlExibicao.Controls.Add(this.lblNomeTime2);
-            this.pnlExibicao.Controls.Add(this.lblNomeTime);
-            this.pnlExibicao.Controls.Add(this.lblNomePopular);
-            this.pnlExibicao.Controls.Add(this.lblNumero);
-            this.pnlExibicao.Controls.Add(this.lblExibicaoTime);
-            this.pnlExibicao.Controls.Add(this.picTimes);
-            this.pnlExibicao.Location = new System.Drawing.Point(39, 179);
-            this.pnlExibicao.Name = "pnlExibicao";
-            this.pnlExibicao.Size = new System.Drawing.Size(548, 397);
-            this.pnlExibicao.TabIndex = 1;
-            // 
-            // lblExibicaoTime
-            // 
-            this.lblExibicaoTime.AutoSize = true;
-            this.lblExibicaoTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblExibicaoTime.Location = new System.Drawing.Point(156, 59);
-            this.lblExibicaoTime.Name = "lblExibicaoTime";
-            this.lblExibicaoTime.Size = new System.Drawing.Size(207, 33);
-            this.lblExibicaoTime.TabIndex = 1;
-            this.lblExibicaoTime.Text = "Nome do Time";
-            // 
-            // lblNumero
-            // 
-            this.lblNumero.AutoSize = true;
-            this.lblNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumero.Location = new System.Drawing.Point(39, 175);
-            this.lblNumero.Name = "lblNumero";
-            this.lblNumero.Size = new System.Drawing.Size(93, 25);
-            this.lblNumero.TabIndex = 2;
-            this.lblNumero.Text = "Número:";
-            // 
-            // lblNomePopular
-            // 
-            this.lblNomePopular.AutoSize = true;
-            this.lblNomePopular.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNomePopular.Location = new System.Drawing.Point(39, 300);
-            this.lblNomePopular.Name = "lblNomePopular";
-            this.lblNomePopular.Size = new System.Drawing.Size(154, 25);
-            this.lblNomePopular.TabIndex = 3;
-            this.lblNomePopular.Text = "Nome Popular:";
-            // 
-            // lblNomeTime
-            // 
-            this.lblNomeTime.AutoSize = true;
-            this.lblNomeTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNomeTime.Location = new System.Drawing.Point(39, 246);
-            this.lblNomeTime.Name = "lblNomeTime";
-            this.lblNomeTime.Size = new System.Drawing.Size(74, 25);
-            this.lblNomeTime.TabIndex = 4;
-            this.lblNomeTime.Text = "Nome:";
-            // 
-            // lblNomeTime2
-            // 
-            this.lblNomeTime2.AutoSize = true;
-            this.lblNomeTime2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblNomeTime2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNomeTime2.Location = new System.Drawing.Point(119, 246);
-            this.lblNomeTime2.Name = "lblNomeTime2";
-            this.lblNomeTime2.Size = new System.Drawing.Size(26, 27);
-            this.lblNomeTime2.TabIndex = 5;
-            this.lblNomeTime2.Text = "  ";
-            // 
-            // lblNomePopular2
-            // 
-            this.lblNomePopular2.AutoSize = true;
-            this.lblNomePopular2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblNomePopular2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNomePopular2.Location = new System.Drawing.Point(199, 300);
-            this.lblNomePopular2.Name = "lblNomePopular2";
-            this.lblNomePopular2.Size = new System.Drawing.Size(26, 27);
-            this.lblNomePopular2.TabIndex = 6;
-            this.lblNomePopular2.Text = "  ";
-            this.lblNomePopular2.Click += new System.EventHandler(this.lblNomePopular2_Click);
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.picLogo);
-            this.panel2.Location = new System.Drawing.Point(41, 57);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(940, 108);
-            this.panel2.TabIndex = 2;
-            // 
-            // picLogo
-            // 
-            this.picLogo.BackColor = System.Drawing.Color.White;
-            this.picLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picLogo.Image = global::Urna.Properties.Resources.supremo;
-            this.picLogo.Location = new System.Drawing.Point(26, 8);
-            this.picLogo.Name = "picLogo";
-            this.picLogo.Size = new System.Drawing.Size(104, 91);
-            this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picLogo.TabIndex = 7;
-            this.picLogo.TabStop = false;
-            // 
-            // picTimes
-            // 
-            this.picTimes.BackColor = System.Drawing.Color.White;
-            this.picTimes.Location = new System.Drawing.Point(403, 14);
-            this.picTimes.Name = "picTimes";
-            this.picTimes.Size = new System.Drawing.Size(128, 122);
-            this.picTimes.TabIndex = 0;
-            this.picTimes.TabStop = false;
             // 
             // btnCorrige
             // 
@@ -358,6 +245,151 @@
             this.btn1.UseVisualStyleBackColor = true;
             this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
+            // pnlExibicao
+            // 
+            this.pnlExibicao.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pnlExibicao.Controls.Add(this.lblNumero4);
+            this.pnlExibicao.Controls.Add(this.lblNumero3);
+            this.pnlExibicao.Controls.Add(this.lblNumero2);
+            this.pnlExibicao.Controls.Add(this.lblNumero1);
+            this.pnlExibicao.Controls.Add(this.lblNomePopular2);
+            this.pnlExibicao.Controls.Add(this.lblNomeTime2);
+            this.pnlExibicao.Controls.Add(this.lblNomeTime);
+            this.pnlExibicao.Controls.Add(this.lblNomePopular);
+            this.pnlExibicao.Controls.Add(this.lblNumero);
+            this.pnlExibicao.Controls.Add(this.lblExibicaoTime);
+            this.pnlExibicao.Controls.Add(this.picTimes);
+            this.pnlExibicao.Location = new System.Drawing.Point(39, 179);
+            this.pnlExibicao.Name = "pnlExibicao";
+            this.pnlExibicao.Size = new System.Drawing.Size(548, 397);
+            this.pnlExibicao.TabIndex = 1;
+            // 
+            // lblNumero4
+            // 
+            this.lblNumero4.BackColor = System.Drawing.Color.White;
+            this.lblNumero4.Font = new System.Drawing.Font("Microsoft Sans Serif", 42F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumero4.Location = new System.Drawing.Point(372, 159);
+            this.lblNumero4.Name = "lblNumero4";
+            this.lblNumero4.Size = new System.Drawing.Size(72, 64);
+            this.lblNumero4.TabIndex = 10;
+            this.lblNumero4.Text = "   ";
+            this.lblNumero4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblNumero3
+            // 
+            this.lblNumero3.BackColor = System.Drawing.Color.White;
+            this.lblNumero3.Font = new System.Drawing.Font("Microsoft Sans Serif", 42F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumero3.Location = new System.Drawing.Point(294, 159);
+            this.lblNumero3.Name = "lblNumero3";
+            this.lblNumero3.Size = new System.Drawing.Size(72, 64);
+            this.lblNumero3.TabIndex = 9;
+            this.lblNumero3.Text = "   ";
+            this.lblNumero3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblNumero2
+            // 
+            this.lblNumero2.BackColor = System.Drawing.Color.White;
+            this.lblNumero2.Font = new System.Drawing.Font("Microsoft Sans Serif", 42F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumero2.Location = new System.Drawing.Point(216, 159);
+            this.lblNumero2.Name = "lblNumero2";
+            this.lblNumero2.Size = new System.Drawing.Size(72, 64);
+            this.lblNumero2.TabIndex = 8;
+            this.lblNumero2.Text = "   ";
+            this.lblNumero2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblNumero1
+            // 
+            this.lblNumero1.BackColor = System.Drawing.Color.White;
+            this.lblNumero1.Font = new System.Drawing.Font("Microsoft Sans Serif", 42F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumero1.Location = new System.Drawing.Point(138, 159);
+            this.lblNumero1.Name = "lblNumero1";
+            this.lblNumero1.Size = new System.Drawing.Size(72, 64);
+            this.lblNumero1.TabIndex = 7;
+            this.lblNumero1.Text = "   ";
+            this.lblNumero1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblNomePopular2
+            // 
+            this.lblNomePopular2.AutoSize = true;
+            this.lblNomePopular2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblNomePopular2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomePopular2.Location = new System.Drawing.Point(199, 300);
+            this.lblNomePopular2.Name = "lblNomePopular2";
+            this.lblNomePopular2.Size = new System.Drawing.Size(26, 27);
+            this.lblNomePopular2.TabIndex = 6;
+            this.lblNomePopular2.Text = "  ";
+            this.lblNomePopular2.Click += new System.EventHandler(this.lblNomePopular2_Click);
+            // 
+            // lblNomeTime2
+            // 
+            this.lblNomeTime2.AutoSize = true;
+            this.lblNomeTime2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblNomeTime2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomeTime2.Location = new System.Drawing.Point(119, 246);
+            this.lblNomeTime2.Name = "lblNomeTime2";
+            this.lblNomeTime2.Size = new System.Drawing.Size(26, 27);
+            this.lblNomeTime2.TabIndex = 5;
+            this.lblNomeTime2.Text = "  ";
+            // 
+            // lblNomeTime
+            // 
+            this.lblNomeTime.AutoSize = true;
+            this.lblNomeTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomeTime.Location = new System.Drawing.Point(39, 246);
+            this.lblNomeTime.Name = "lblNomeTime";
+            this.lblNomeTime.Size = new System.Drawing.Size(74, 25);
+            this.lblNomeTime.TabIndex = 4;
+            this.lblNomeTime.Text = "Nome:";
+            // 
+            // lblNomePopular
+            // 
+            this.lblNomePopular.AutoSize = true;
+            this.lblNomePopular.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomePopular.Location = new System.Drawing.Point(39, 300);
+            this.lblNomePopular.Name = "lblNomePopular";
+            this.lblNomePopular.Size = new System.Drawing.Size(154, 25);
+            this.lblNomePopular.TabIndex = 3;
+            this.lblNomePopular.Text = "Nome Popular:";
+            // 
+            // lblNumero
+            // 
+            this.lblNumero.AutoSize = true;
+            this.lblNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumero.Location = new System.Drawing.Point(39, 175);
+            this.lblNumero.Name = "lblNumero";
+            this.lblNumero.Size = new System.Drawing.Size(93, 25);
+            this.lblNumero.TabIndex = 2;
+            this.lblNumero.Text = "Número:";
+            // 
+            // lblExibicaoTime
+            // 
+            this.lblExibicaoTime.AutoSize = true;
+            this.lblExibicaoTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblExibicaoTime.Location = new System.Drawing.Point(237, 59);
+            this.lblExibicaoTime.Name = "lblExibicaoTime";
+            this.lblExibicaoTime.Size = new System.Drawing.Size(81, 33);
+            this.lblExibicaoTime.TabIndex = 1;
+            this.lblExibicaoTime.Text = "Time";
+            // 
+            // picTimes
+            // 
+            this.picTimes.BackColor = System.Drawing.Color.White;
+            this.picTimes.Location = new System.Drawing.Point(403, 14);
+            this.picTimes.Name = "picTimes";
+            this.picTimes.Size = new System.Drawing.Size(128, 122);
+            this.picTimes.TabIndex = 0;
+            this.picTimes.TabStop = false;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.picLogo);
+            this.panel2.Location = new System.Drawing.Point(41, 57);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(940, 108);
+            this.panel2.TabIndex = 2;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -368,49 +400,17 @@
             this.label1.TabIndex = 7;
             this.label1.Text = "SUPREMO TRIBUNAL ELEITORAL DOS TIMES - STET";
             // 
-            // lblNumero1
+            // picLogo
             // 
-            this.lblNumero1.AutoSize = true;
-            this.lblNumero1.BackColor = System.Drawing.Color.White;
-            this.lblNumero1.Font = new System.Drawing.Font("Microsoft Sans Serif", 42F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumero1.Location = new System.Drawing.Point(138, 159);
-            this.lblNumero1.Name = "lblNumero1";
-            this.lblNumero1.Size = new System.Drawing.Size(72, 64);
-            this.lblNumero1.TabIndex = 7;
-            this.lblNumero1.Text = "   ";
-            // 
-            // lblNumero2
-            // 
-            this.lblNumero2.AutoSize = true;
-            this.lblNumero2.BackColor = System.Drawing.Color.White;
-            this.lblNumero2.Font = new System.Drawing.Font("Microsoft Sans Serif", 42F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumero2.Location = new System.Drawing.Point(216, 159);
-            this.lblNumero2.Name = "lblNumero2";
-            this.lblNumero2.Size = new System.Drawing.Size(72, 64);
-            this.lblNumero2.TabIndex = 8;
-            this.lblNumero2.Text = "   ";
-            // 
-            // lblNumero3
-            // 
-            this.lblNumero3.AutoSize = true;
-            this.lblNumero3.BackColor = System.Drawing.Color.White;
-            this.lblNumero3.Font = new System.Drawing.Font("Microsoft Sans Serif", 42F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumero3.Location = new System.Drawing.Point(294, 159);
-            this.lblNumero3.Name = "lblNumero3";
-            this.lblNumero3.Size = new System.Drawing.Size(72, 64);
-            this.lblNumero3.TabIndex = 9;
-            this.lblNumero3.Text = "   ";
-            // 
-            // lblNumero4
-            // 
-            this.lblNumero4.AutoSize = true;
-            this.lblNumero4.BackColor = System.Drawing.Color.White;
-            this.lblNumero4.Font = new System.Drawing.Font("Microsoft Sans Serif", 42F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumero4.Location = new System.Drawing.Point(372, 159);
-            this.lblNumero4.Name = "lblNumero4";
-            this.lblNumero4.Size = new System.Drawing.Size(72, 64);
-            this.lblNumero4.TabIndex = 10;
-            this.lblNumero4.Text = "   ";
+            this.picLogo.BackColor = System.Drawing.Color.White;
+            this.picLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.picLogo.Image = global::Urna.Properties.Resources.supremo;
+            this.picLogo.Location = new System.Drawing.Point(26, 8);
+            this.picLogo.Name = "picLogo";
+            this.picLogo.Size = new System.Drawing.Size(104, 91);
+            this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picLogo.TabIndex = 7;
+            this.picLogo.TabStop = false;
             // 
             // pnlFim
             // 
@@ -446,10 +446,10 @@
             this.panel1.ResumeLayout(false);
             this.pnlExibicao.ResumeLayout(false);
             this.pnlExibicao.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picTimes)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picTimes)).EndInit();
             this.pnlFim.ResumeLayout(false);
             this.pnlFim.PerformLayout();
             this.ResumeLayout(false);
