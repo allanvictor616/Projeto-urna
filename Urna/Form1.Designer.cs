@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmUrna));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pnlExibicao = new System.Windows.Forms.Panel();
             this.lblExibicaoTime = new System.Windows.Forms.Label();
@@ -37,8 +38,8 @@
             this.lblNomeTime2 = new System.Windows.Forms.Label();
             this.lblNomePopular2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pctBoxLogo = new System.Windows.Forms.PictureBox();
-            this.pctBoxTimes = new System.Windows.Forms.PictureBox();
+            this.picLogo = new System.Windows.Forms.PictureBox();
+            this.picTimes = new System.Windows.Forms.PictureBox();
             this.btnCorrige = new System.Windows.Forms.Button();
             this.btnBranco = new System.Windows.Forms.Button();
             this.btnConfirma = new System.Windows.Forms.Button();
@@ -57,11 +58,14 @@
             this.lblNumero2 = new System.Windows.Forms.Label();
             this.lblNumero3 = new System.Windows.Forms.Label();
             this.lblNumero4 = new System.Windows.Forms.Label();
+            this.pnlFim = new System.Windows.Forms.Panel();
+            this.lblFim = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.pnlExibicao.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pctBoxLogo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctBoxTimes)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picTimes)).BeginInit();
+            this.pnlFim.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -98,7 +102,7 @@
             this.pnlExibicao.Controls.Add(this.lblNomePopular);
             this.pnlExibicao.Controls.Add(this.lblNumero);
             this.pnlExibicao.Controls.Add(this.lblExibicaoTime);
-            this.pnlExibicao.Controls.Add(this.pctBoxTimes);
+            this.pnlExibicao.Controls.Add(this.picTimes);
             this.pnlExibicao.Location = new System.Drawing.Point(39, 179);
             this.pnlExibicao.Name = "pnlExibicao";
             this.pnlExibicao.Size = new System.Drawing.Size(548, 397);
@@ -147,7 +151,7 @@
             // lblNomeTime2
             // 
             this.lblNomeTime2.AutoSize = true;
-            this.lblNomeTime2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblNomeTime2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblNomeTime2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNomeTime2.Location = new System.Drawing.Point(119, 246);
             this.lblNomeTime2.Name = "lblNomeTime2";
@@ -158,7 +162,7 @@
             // lblNomePopular2
             // 
             this.lblNomePopular2.AutoSize = true;
-            this.lblNomePopular2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblNomePopular2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblNomePopular2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNomePopular2.Location = new System.Drawing.Point(199, 300);
             this.lblNomePopular2.Name = "lblNomePopular2";
@@ -171,32 +175,32 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.pctBoxLogo);
+            this.panel2.Controls.Add(this.picLogo);
             this.panel2.Location = new System.Drawing.Point(41, 57);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(940, 108);
             this.panel2.TabIndex = 2;
             // 
-            // pctBoxLogo
+            // picLogo
             // 
-            this.pctBoxLogo.BackColor = System.Drawing.Color.White;
-            this.pctBoxLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pctBoxLogo.Image = global::Urna.Properties.Resources.supremo;
-            this.pctBoxLogo.Location = new System.Drawing.Point(26, 8);
-            this.pctBoxLogo.Name = "pctBoxLogo";
-            this.pctBoxLogo.Size = new System.Drawing.Size(104, 91);
-            this.pctBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pctBoxLogo.TabIndex = 7;
-            this.pctBoxLogo.TabStop = false;
+            this.picLogo.BackColor = System.Drawing.Color.White;
+            this.picLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.picLogo.Image = global::Urna.Properties.Resources.supremo;
+            this.picLogo.Location = new System.Drawing.Point(26, 8);
+            this.picLogo.Name = "picLogo";
+            this.picLogo.Size = new System.Drawing.Size(104, 91);
+            this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picLogo.TabIndex = 7;
+            this.picLogo.TabStop = false;
             // 
-            // pctBoxTimes
+            // picTimes
             // 
-            this.pctBoxTimes.BackColor = System.Drawing.Color.White;
-            this.pctBoxTimes.Location = new System.Drawing.Point(403, 14);
-            this.pctBoxTimes.Name = "pctBoxTimes";
-            this.pctBoxTimes.Size = new System.Drawing.Size(128, 122);
-            this.pctBoxTimes.TabIndex = 0;
-            this.pctBoxTimes.TabStop = false;
+            this.picTimes.BackColor = System.Drawing.Color.White;
+            this.picTimes.Location = new System.Drawing.Point(403, 14);
+            this.picTimes.Name = "picTimes";
+            this.picTimes.Size = new System.Drawing.Size(128, 122);
+            this.picTimes.TabIndex = 0;
+            this.picTimes.TabStop = false;
             // 
             // btnCorrige
             // 
@@ -208,6 +212,7 @@
             this.btnCorrige.Size = new System.Drawing.Size(98, 50);
             this.btnCorrige.TabIndex = 12;
             this.btnCorrige.UseVisualStyleBackColor = true;
+            this.btnCorrige.Click += new System.EventHandler(this.btnCorrige_Click);
             // 
             // btnBranco
             // 
@@ -219,6 +224,7 @@
             this.btnBranco.Size = new System.Drawing.Size(98, 50);
             this.btnBranco.TabIndex = 11;
             this.btnBranco.UseVisualStyleBackColor = true;
+            this.btnBranco.Click += new System.EventHandler(this.btnBranco_Click);
             // 
             // btnConfirma
             // 
@@ -230,6 +236,7 @@
             this.btnConfirma.Size = new System.Drawing.Size(95, 109);
             this.btnConfirma.TabIndex = 10;
             this.btnConfirma.UseVisualStyleBackColor = true;
+            this.btnConfirma.Click += new System.EventHandler(this.btnConfirma_Click);
             // 
             // btn0
             // 
@@ -253,6 +260,7 @@
             this.btn9.Size = new System.Drawing.Size(74, 56);
             this.btn9.TabIndex = 8;
             this.btn9.UseVisualStyleBackColor = true;
+            this.btn9.Click += new System.EventHandler(this.btn9_Click);
             // 
             // btn8
             // 
@@ -264,6 +272,7 @@
             this.btn8.Size = new System.Drawing.Size(74, 56);
             this.btn8.TabIndex = 7;
             this.btn8.UseVisualStyleBackColor = true;
+            this.btn8.Click += new System.EventHandler(this.btn8_Click);
             // 
             // btn7
             // 
@@ -275,6 +284,7 @@
             this.btn7.Size = new System.Drawing.Size(74, 56);
             this.btn7.TabIndex = 6;
             this.btn7.UseVisualStyleBackColor = true;
+            this.btn7.Click += new System.EventHandler(this.btn7_Click);
             // 
             // btn6
             // 
@@ -286,6 +296,7 @@
             this.btn6.Size = new System.Drawing.Size(74, 56);
             this.btn6.TabIndex = 5;
             this.btn6.UseVisualStyleBackColor = true;
+            this.btn6.Click += new System.EventHandler(this.btn6_Click);
             // 
             // btn5
             // 
@@ -297,6 +308,7 @@
             this.btn5.Size = new System.Drawing.Size(74, 56);
             this.btn5.TabIndex = 4;
             this.btn5.UseVisualStyleBackColor = true;
+            this.btn5.Click += new System.EventHandler(this.btn5_Click);
             // 
             // btn4
             // 
@@ -308,6 +320,7 @@
             this.btn4.Size = new System.Drawing.Size(74, 56);
             this.btn4.TabIndex = 3;
             this.btn4.UseVisualStyleBackColor = true;
+            this.btn4.Click += new System.EventHandler(this.btn4_Click);
             // 
             // btn3
             // 
@@ -319,6 +332,7 @@
             this.btn3.Size = new System.Drawing.Size(74, 56);
             this.btn3.TabIndex = 2;
             this.btn3.UseVisualStyleBackColor = true;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
             // 
             // btn2
             // 
@@ -330,6 +344,7 @@
             this.btn2.Size = new System.Drawing.Size(74, 56);
             this.btn2.TabIndex = 1;
             this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
             // btn1
             // 
@@ -341,6 +356,7 @@
             this.btn1.Size = new System.Drawing.Size(74, 56);
             this.btn1.TabIndex = 0;
             this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
             // label1
             // 
@@ -356,10 +372,10 @@
             // 
             this.lblNumero1.AutoSize = true;
             this.lblNumero1.BackColor = System.Drawing.Color.White;
-            this.lblNumero1.Font = new System.Drawing.Font("Microsoft Sans Serif", 38.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumero1.Font = new System.Drawing.Font("Microsoft Sans Serif", 42F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNumero1.Location = new System.Drawing.Point(138, 159);
             this.lblNumero1.Name = "lblNumero1";
-            this.lblNumero1.Size = new System.Drawing.Size(67, 59);
+            this.lblNumero1.Size = new System.Drawing.Size(72, 64);
             this.lblNumero1.TabIndex = 7;
             this.lblNumero1.Text = "   ";
             // 
@@ -367,10 +383,10 @@
             // 
             this.lblNumero2.AutoSize = true;
             this.lblNumero2.BackColor = System.Drawing.Color.White;
-            this.lblNumero2.Font = new System.Drawing.Font("Microsoft Sans Serif", 38.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumero2.Location = new System.Drawing.Point(211, 159);
+            this.lblNumero2.Font = new System.Drawing.Font("Microsoft Sans Serif", 42F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumero2.Location = new System.Drawing.Point(216, 159);
             this.lblNumero2.Name = "lblNumero2";
-            this.lblNumero2.Size = new System.Drawing.Size(67, 59);
+            this.lblNumero2.Size = new System.Drawing.Size(72, 64);
             this.lblNumero2.TabIndex = 8;
             this.lblNumero2.Text = "   ";
             // 
@@ -378,10 +394,10 @@
             // 
             this.lblNumero3.AutoSize = true;
             this.lblNumero3.BackColor = System.Drawing.Color.White;
-            this.lblNumero3.Font = new System.Drawing.Font("Microsoft Sans Serif", 38.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumero3.Location = new System.Drawing.Point(284, 159);
+            this.lblNumero3.Font = new System.Drawing.Font("Microsoft Sans Serif", 42F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumero3.Location = new System.Drawing.Point(294, 159);
             this.lblNumero3.Name = "lblNumero3";
-            this.lblNumero3.Size = new System.Drawing.Size(67, 59);
+            this.lblNumero3.Size = new System.Drawing.Size(72, 64);
             this.lblNumero3.TabIndex = 9;
             this.lblNumero3.Text = "   ";
             // 
@@ -389,21 +405,42 @@
             // 
             this.lblNumero4.AutoSize = true;
             this.lblNumero4.BackColor = System.Drawing.Color.White;
-            this.lblNumero4.Font = new System.Drawing.Font("Microsoft Sans Serif", 38.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumero4.Location = new System.Drawing.Point(357, 159);
+            this.lblNumero4.Font = new System.Drawing.Font("Microsoft Sans Serif", 42F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumero4.Location = new System.Drawing.Point(372, 159);
             this.lblNumero4.Name = "lblNumero4";
-            this.lblNumero4.Size = new System.Drawing.Size(67, 59);
+            this.lblNumero4.Size = new System.Drawing.Size(72, 64);
             this.lblNumero4.TabIndex = 10;
             this.lblNumero4.Text = "   ";
+            // 
+            // pnlFim
+            // 
+            this.pnlFim.Controls.Add(this.lblFim);
+            this.pnlFim.Location = new System.Drawing.Point(987, 15);
+            this.pnlFim.Name = "pnlFim";
+            this.pnlFim.Size = new System.Drawing.Size(548, 397);
+            this.pnlFim.TabIndex = 3;
+            // 
+            // lblFim
+            // 
+            this.lblFim.AutoSize = true;
+            this.lblFim.Font = new System.Drawing.Font("Microsoft Sans Serif", 51.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFim.Location = new System.Drawing.Point(194, 144);
+            this.lblFim.Name = "lblFim";
+            this.lblFim.Size = new System.Drawing.Size(152, 79);
+            this.lblFim.TabIndex = 0;
+            this.lblFim.Text = "FIM";
             // 
             // frmUrna
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1039, 649);
+            this.Controls.Add(this.pnlFim);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.pnlExibicao);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmUrna";
             this.Text = "SUPREMO TRIBUNAL ELEITORAL DOS TIMES - STET";
             this.panel1.ResumeLayout(false);
@@ -411,8 +448,10 @@
             this.pnlExibicao.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pctBoxLogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctBoxTimes)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picTimes)).EndInit();
+            this.pnlFim.ResumeLayout(false);
+            this.pnlFim.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -435,19 +474,21 @@
         private System.Windows.Forms.Button btnConfirma;
         private System.Windows.Forms.Panel pnlExibicao;
         private System.Windows.Forms.Label lblExibicaoTime;
-        private System.Windows.Forms.PictureBox pctBoxTimes;
+        private System.Windows.Forms.PictureBox picTimes;
         private System.Windows.Forms.Label lblNomeTime2;
         private System.Windows.Forms.Label lblNomeTime;
         private System.Windows.Forms.Label lblNomePopular;
         private System.Windows.Forms.Label lblNumero;
         private System.Windows.Forms.Label lblNomePopular2;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.PictureBox pctBoxLogo;
+        private System.Windows.Forms.PictureBox picLogo;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblNumero2;
         private System.Windows.Forms.Label lblNumero1;
         private System.Windows.Forms.Label lblNumero4;
         private System.Windows.Forms.Label lblNumero3;
+        private System.Windows.Forms.Panel pnlFim;
+        private System.Windows.Forms.Label lblFim;
     }
 }
 

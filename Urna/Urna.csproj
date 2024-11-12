@@ -119,5 +119,23 @@
   <ItemGroup>
     <None Include="Resources\branco.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supremo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corinthians.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gremio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\palmeiras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\santos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spfc.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
