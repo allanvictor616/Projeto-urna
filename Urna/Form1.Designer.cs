@@ -33,34 +33,34 @@
             this.lblFim = new System.Windows.Forms.Label();
             this.cbBox1 = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btn1 = new System.Windows.Forms.Button();
-            this.btn2 = new System.Windows.Forms.Button();
-            this.btn3 = new System.Windows.Forms.Button();
-            this.btn4 = new System.Windows.Forms.Button();
-            this.btn5 = new System.Windows.Forms.Button();
-            this.btn6 = new System.Windows.Forms.Button();
-            this.btn7 = new System.Windows.Forms.Button();
-            this.btn8 = new System.Windows.Forms.Button();
-            this.btn9 = new System.Windows.Forms.Button();
-            this.btn0 = new System.Windows.Forms.Button();
-            this.btnConfirma = new System.Windows.Forms.Button();
-            this.btnBranco = new System.Windows.Forms.Button();
             this.btnCorrige = new System.Windows.Forms.Button();
+            this.btnBranco = new System.Windows.Forms.Button();
+            this.btnConfirma = new System.Windows.Forms.Button();
+            this.btn0 = new System.Windows.Forms.Button();
+            this.btn9 = new System.Windows.Forms.Button();
+            this.btn8 = new System.Windows.Forms.Button();
+            this.btn7 = new System.Windows.Forms.Button();
+            this.btn6 = new System.Windows.Forms.Button();
+            this.btn5 = new System.Windows.Forms.Button();
+            this.btn4 = new System.Windows.Forms.Button();
+            this.btn3 = new System.Windows.Forms.Button();
+            this.btn2 = new System.Windows.Forms.Button();
+            this.btn1 = new System.Windows.Forms.Button();
             this.pnlExibicao = new System.Windows.Forms.Panel();
-            this.picTimes = new System.Windows.Forms.PictureBox();
-            this.lblExibicaoTime = new System.Windows.Forms.Label();
-            this.lblNumero = new System.Windows.Forms.Label();
-            this.lblNomePopular = new System.Windows.Forms.Label();
-            this.lblNomeTime = new System.Windows.Forms.Label();
-            this.lblNomeTime2 = new System.Windows.Forms.Label();
             this.lblNomePopular2 = new System.Windows.Forms.Label();
-            this.lblNumero1 = new System.Windows.Forms.Label();
-            this.lblNumero2 = new System.Windows.Forms.Label();
-            this.lblNumero3 = new System.Windows.Forms.Label();
-            this.lblNumero4 = new System.Windows.Forms.Label();
+            this.lblNomeTime2 = new System.Windows.Forms.Label();
+            this.lblNomeTime = new System.Windows.Forms.Label();
+            this.lblNomePopular = new System.Windows.Forms.Label();
+            this.lblNumero = new System.Windows.Forms.Label();
+            this.lblExibicaoTime = new System.Windows.Forms.Label();
+            this.picTimes = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.picLogo = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.picLogo = new System.Windows.Forms.PictureBox();
+            this.lblNum1 = new System.Windows.Forms.Label();
+            this.lblNum2 = new System.Windows.Forms.Label();
+            this.lblNum3 = new System.Windows.Forms.Label();
+            this.lblNum4 = new System.Windows.Forms.Label();
             this.pnlFim.SuspendLayout();
             this.panel1.SuspendLayout();
             this.pnlExibicao.SuspendLayout();
@@ -125,137 +125,17 @@
             this.panel1.Size = new System.Drawing.Size(360, 398);
             this.panel1.TabIndex = 0;
             // 
-            // btn1
+            // btnCorrige
             // 
-            this.btn1.BackgroundImage = global::Urna.Properties.Resources._1;
-            this.btn1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn1.Location = new System.Drawing.Point(50, 53);
-            this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(74, 56);
-            this.btn1.TabIndex = 0;
-            this.btn1.UseVisualStyleBackColor = true;
-            this.btn1.Click += new System.EventHandler(this.btn1_Click);
-            // 
-            // btn2
-            // 
-            this.btn2.BackgroundImage = global::Urna.Properties.Resources._2;
-            this.btn2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn2.Location = new System.Drawing.Point(142, 53);
-            this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(74, 56);
-            this.btn2.TabIndex = 1;
-            this.btn2.UseVisualStyleBackColor = true;
-            this.btn2.Click += new System.EventHandler(this.btn2_Click);
-            // 
-            // btn3
-            // 
-            this.btn3.BackgroundImage = global::Urna.Properties.Resources._3;
-            this.btn3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn3.Location = new System.Drawing.Point(234, 53);
-            this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(74, 56);
-            this.btn3.TabIndex = 2;
-            this.btn3.UseVisualStyleBackColor = true;
-            this.btn3.Click += new System.EventHandler(this.btn3_Click);
-            // 
-            // btn4
-            // 
-            this.btn4.BackgroundImage = global::Urna.Properties.Resources._4;
-            this.btn4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn4.Location = new System.Drawing.Point(50, 115);
-            this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(74, 56);
-            this.btn4.TabIndex = 3;
-            this.btn4.UseVisualStyleBackColor = true;
-            this.btn4.Click += new System.EventHandler(this.btn4_Click);
-            // 
-            // btn5
-            // 
-            this.btn5.BackgroundImage = global::Urna.Properties.Resources._5;
-            this.btn5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn5.Location = new System.Drawing.Point(142, 115);
-            this.btn5.Name = "btn5";
-            this.btn5.Size = new System.Drawing.Size(74, 56);
-            this.btn5.TabIndex = 4;
-            this.btn5.UseVisualStyleBackColor = true;
-            this.btn5.Click += new System.EventHandler(this.btn5_Click);
-            // 
-            // btn6
-            // 
-            this.btn6.BackgroundImage = global::Urna.Properties.Resources._6;
-            this.btn6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn6.Location = new System.Drawing.Point(234, 115);
-            this.btn6.Name = "btn6";
-            this.btn6.Size = new System.Drawing.Size(74, 56);
-            this.btn6.TabIndex = 5;
-            this.btn6.UseVisualStyleBackColor = true;
-            this.btn6.Click += new System.EventHandler(this.btn6_Click);
-            // 
-            // btn7
-            // 
-            this.btn7.BackgroundImage = global::Urna.Properties.Resources._7;
-            this.btn7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn7.Location = new System.Drawing.Point(50, 177);
-            this.btn7.Name = "btn7";
-            this.btn7.Size = new System.Drawing.Size(74, 56);
-            this.btn7.TabIndex = 6;
-            this.btn7.UseVisualStyleBackColor = true;
-            this.btn7.Click += new System.EventHandler(this.btn7_Click);
-            // 
-            // btn8
-            // 
-            this.btn8.BackgroundImage = global::Urna.Properties.Resources._8;
-            this.btn8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn8.Location = new System.Drawing.Point(142, 177);
-            this.btn8.Name = "btn8";
-            this.btn8.Size = new System.Drawing.Size(74, 56);
-            this.btn8.TabIndex = 7;
-            this.btn8.UseVisualStyleBackColor = true;
-            this.btn8.Click += new System.EventHandler(this.btn8_Click);
-            // 
-            // btn9
-            // 
-            this.btn9.BackgroundImage = global::Urna.Properties.Resources._9;
-            this.btn9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn9.Location = new System.Drawing.Point(236, 177);
-            this.btn9.Name = "btn9";
-            this.btn9.Size = new System.Drawing.Size(74, 56);
-            this.btn9.TabIndex = 8;
-            this.btn9.UseVisualStyleBackColor = true;
-            this.btn9.Click += new System.EventHandler(this.btn9_Click);
-            // 
-            // btn0
-            // 
-            this.btn0.BackgroundImage = global::Urna.Properties.Resources._0;
-            this.btn0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn0.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn0.Location = new System.Drawing.Point(142, 243);
-            this.btn0.Name = "btn0";
-            this.btn0.Size = new System.Drawing.Size(74, 56);
-            this.btn0.TabIndex = 9;
-            this.btn0.UseVisualStyleBackColor = true;
-            this.btn0.Click += new System.EventHandler(this.button10_Click);
-            // 
-            // btnConfirma
-            // 
-            this.btnConfirma.BackgroundImage = global::Urna.Properties.Resources.confirma;
-            this.btnConfirma.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnConfirma.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnConfirma.Location = new System.Drawing.Point(234, 246);
-            this.btnConfirma.Name = "btnConfirma";
-            this.btnConfirma.Size = new System.Drawing.Size(95, 109);
-            this.btnConfirma.TabIndex = 10;
-            this.btnConfirma.UseVisualStyleBackColor = true;
-            this.btnConfirma.Click += new System.EventHandler(this.btnConfirma_Click);
+            this.btnCorrige.BackgroundImage = global::Urna.Properties.Resources.corrige;
+            this.btnCorrige.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnCorrige.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCorrige.Location = new System.Drawing.Point(130, 305);
+            this.btnCorrige.Name = "btnCorrige";
+            this.btnCorrige.Size = new System.Drawing.Size(98, 50);
+            this.btnCorrige.TabIndex = 12;
+            this.btnCorrige.UseVisualStyleBackColor = true;
+            this.btnCorrige.Click += new System.EventHandler(this.btnCorrige_Click);
             // 
             // btnBranco
             // 
@@ -269,25 +149,145 @@
             this.btnBranco.UseVisualStyleBackColor = true;
             this.btnBranco.Click += new System.EventHandler(this.btnBranco_Click);
             // 
-            // btnCorrige
+            // btnConfirma
             // 
-            this.btnCorrige.BackgroundImage = global::Urna.Properties.Resources.corrige;
-            this.btnCorrige.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnCorrige.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCorrige.Location = new System.Drawing.Point(130, 305);
-            this.btnCorrige.Name = "btnCorrige";
-            this.btnCorrige.Size = new System.Drawing.Size(98, 50);
-            this.btnCorrige.TabIndex = 12;
-            this.btnCorrige.UseVisualStyleBackColor = true;
-            this.btnCorrige.Click += new System.EventHandler(this.btnCorrige_Click);
+            this.btnConfirma.BackgroundImage = global::Urna.Properties.Resources.confirma;
+            this.btnConfirma.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnConfirma.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnConfirma.Location = new System.Drawing.Point(234, 258);
+            this.btnConfirma.Name = "btnConfirma";
+            this.btnConfirma.Size = new System.Drawing.Size(89, 97);
+            this.btnConfirma.TabIndex = 10;
+            this.btnConfirma.UseVisualStyleBackColor = true;
+            this.btnConfirma.Click += new System.EventHandler(this.btnConfirma_Click);
+            // 
+            // btn0
+            // 
+            this.btn0.BackgroundImage = global::Urna.Properties.Resources._0;
+            this.btn0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn0.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn0.Location = new System.Drawing.Point(142, 243);
+            this.btn0.Name = "btn0";
+            this.btn0.Size = new System.Drawing.Size(74, 56);
+            this.btn0.TabIndex = 9;
+            this.btn0.UseVisualStyleBackColor = true;
+            this.btn0.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // btn9
+            // 
+            this.btn9.BackgroundImage = global::Urna.Properties.Resources._9;
+            this.btn9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn9.Location = new System.Drawing.Point(236, 177);
+            this.btn9.Name = "btn9";
+            this.btn9.Size = new System.Drawing.Size(74, 56);
+            this.btn9.TabIndex = 8;
+            this.btn9.UseVisualStyleBackColor = true;
+            this.btn9.Click += new System.EventHandler(this.btn9_Click);
+            // 
+            // btn8
+            // 
+            this.btn8.BackgroundImage = global::Urna.Properties.Resources._8;
+            this.btn8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn8.Location = new System.Drawing.Point(142, 177);
+            this.btn8.Name = "btn8";
+            this.btn8.Size = new System.Drawing.Size(74, 56);
+            this.btn8.TabIndex = 7;
+            this.btn8.UseVisualStyleBackColor = true;
+            this.btn8.Click += new System.EventHandler(this.btn8_Click);
+            // 
+            // btn7
+            // 
+            this.btn7.BackgroundImage = global::Urna.Properties.Resources._7;
+            this.btn7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn7.Location = new System.Drawing.Point(50, 177);
+            this.btn7.Name = "btn7";
+            this.btn7.Size = new System.Drawing.Size(74, 56);
+            this.btn7.TabIndex = 6;
+            this.btn7.UseVisualStyleBackColor = true;
+            this.btn7.Click += new System.EventHandler(this.btn7_Click);
+            // 
+            // btn6
+            // 
+            this.btn6.BackgroundImage = global::Urna.Properties.Resources._6;
+            this.btn6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn6.Location = new System.Drawing.Point(234, 115);
+            this.btn6.Name = "btn6";
+            this.btn6.Size = new System.Drawing.Size(74, 56);
+            this.btn6.TabIndex = 5;
+            this.btn6.UseVisualStyleBackColor = true;
+            this.btn6.Click += new System.EventHandler(this.btn6_Click);
+            // 
+            // btn5
+            // 
+            this.btn5.BackgroundImage = global::Urna.Properties.Resources._5;
+            this.btn5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn5.Location = new System.Drawing.Point(142, 115);
+            this.btn5.Name = "btn5";
+            this.btn5.Size = new System.Drawing.Size(74, 56);
+            this.btn5.TabIndex = 4;
+            this.btn5.UseVisualStyleBackColor = true;
+            this.btn5.Click += new System.EventHandler(this.btn5_Click);
+            // 
+            // btn4
+            // 
+            this.btn4.BackgroundImage = global::Urna.Properties.Resources._4;
+            this.btn4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn4.Location = new System.Drawing.Point(50, 115);
+            this.btn4.Name = "btn4";
+            this.btn4.Size = new System.Drawing.Size(74, 56);
+            this.btn4.TabIndex = 3;
+            this.btn4.UseVisualStyleBackColor = true;
+            this.btn4.Click += new System.EventHandler(this.btn4_Click);
+            // 
+            // btn3
+            // 
+            this.btn3.BackgroundImage = global::Urna.Properties.Resources._3;
+            this.btn3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn3.Location = new System.Drawing.Point(234, 53);
+            this.btn3.Name = "btn3";
+            this.btn3.Size = new System.Drawing.Size(74, 56);
+            this.btn3.TabIndex = 2;
+            this.btn3.UseVisualStyleBackColor = true;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
+            // 
+            // btn2
+            // 
+            this.btn2.BackgroundImage = global::Urna.Properties.Resources._2;
+            this.btn2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn2.Location = new System.Drawing.Point(142, 53);
+            this.btn2.Name = "btn2";
+            this.btn2.Size = new System.Drawing.Size(74, 56);
+            this.btn2.TabIndex = 1;
+            this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
+            // 
+            // btn1
+            // 
+            this.btn1.BackgroundImage = global::Urna.Properties.Resources._1;
+            this.btn1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn1.Location = new System.Drawing.Point(50, 53);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(74, 56);
+            this.btn1.TabIndex = 0;
+            this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
             // pnlExibicao
             // 
             this.pnlExibicao.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pnlExibicao.Controls.Add(this.lblNumero4);
-            this.pnlExibicao.Controls.Add(this.lblNumero3);
-            this.pnlExibicao.Controls.Add(this.lblNumero2);
-            this.pnlExibicao.Controls.Add(this.lblNumero1);
+            this.pnlExibicao.Controls.Add(this.lblNum4);
+            this.pnlExibicao.Controls.Add(this.lblNum3);
+            this.pnlExibicao.Controls.Add(this.lblNum2);
+            this.pnlExibicao.Controls.Add(this.lblNum1);
             this.pnlExibicao.Controls.Add(this.lblNomePopular2);
             this.pnlExibicao.Controls.Add(this.lblNomeTime2);
             this.pnlExibicao.Controls.Add(this.lblNomeTime);
@@ -299,66 +299,6 @@
             this.pnlExibicao.Name = "pnlExibicao";
             this.pnlExibicao.Size = new System.Drawing.Size(548, 397);
             this.pnlExibicao.TabIndex = 1;
-            // 
-            // picTimes
-            // 
-            this.picTimes.BackColor = System.Drawing.Color.White;
-            this.picTimes.Location = new System.Drawing.Point(403, 14);
-            this.picTimes.Name = "picTimes";
-            this.picTimes.Size = new System.Drawing.Size(128, 122);
-            this.picTimes.TabIndex = 0;
-            this.picTimes.TabStop = false;
-            // 
-            // lblExibicaoTime
-            // 
-            this.lblExibicaoTime.AutoSize = true;
-            this.lblExibicaoTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblExibicaoTime.Location = new System.Drawing.Point(237, 59);
-            this.lblExibicaoTime.Name = "lblExibicaoTime";
-            this.lblExibicaoTime.Size = new System.Drawing.Size(84, 33);
-            this.lblExibicaoTime.TabIndex = 1;
-            this.lblExibicaoTime.Text = "TIME";
-            // 
-            // lblNumero
-            // 
-            this.lblNumero.AutoSize = true;
-            this.lblNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumero.Location = new System.Drawing.Point(23, 177);
-            this.lblNumero.Name = "lblNumero";
-            this.lblNumero.Size = new System.Drawing.Size(111, 25);
-            this.lblNumero.TabIndex = 2;
-            this.lblNumero.Text = "NÚMERO:";
-            // 
-            // lblNomePopular
-            // 
-            this.lblNomePopular.AutoSize = true;
-            this.lblNomePopular.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNomePopular.Location = new System.Drawing.Point(23, 300);
-            this.lblNomePopular.Name = "lblNomePopular";
-            this.lblNomePopular.Size = new System.Drawing.Size(187, 25);
-            this.lblNomePopular.TabIndex = 3;
-            this.lblNomePopular.Text = "NOME POPULAR:";
-            // 
-            // lblNomeTime
-            // 
-            this.lblNomeTime.AutoSize = true;
-            this.lblNomeTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNomeTime.Location = new System.Drawing.Point(23, 246);
-            this.lblNomeTime.Name = "lblNomeTime";
-            this.lblNomeTime.Size = new System.Drawing.Size(81, 25);
-            this.lblNomeTime.TabIndex = 4;
-            this.lblNomeTime.Text = "NOME:";
-            // 
-            // lblNomeTime2
-            // 
-            this.lblNomeTime2.AutoSize = true;
-            this.lblNomeTime2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblNomeTime2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNomeTime2.Location = new System.Drawing.Point(110, 246);
-            this.lblNomeTime2.Name = "lblNomeTime2";
-            this.lblNomeTime2.Size = new System.Drawing.Size(26, 27);
-            this.lblNomeTime2.TabIndex = 5;
-            this.lblNomeTime2.Text = "  ";
             // 
             // lblNomePopular2
             // 
@@ -372,49 +312,65 @@
             this.lblNomePopular2.Text = "  ";
             this.lblNomePopular2.Click += new System.EventHandler(this.lblNomePopular2_Click);
             // 
-            // lblNumero1
+            // lblNomeTime2
             // 
-            this.lblNumero1.BackColor = System.Drawing.Color.White;
-            this.lblNumero1.Font = new System.Drawing.Font("Microsoft Sans Serif", 42F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumero1.Location = new System.Drawing.Point(138, 159);
-            this.lblNumero1.Name = "lblNumero1";
-            this.lblNumero1.Size = new System.Drawing.Size(72, 64);
-            this.lblNumero1.TabIndex = 7;
-            this.lblNumero1.Text = "   ";
-            this.lblNumero1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblNomeTime2.AutoSize = true;
+            this.lblNomeTime2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblNomeTime2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomeTime2.Location = new System.Drawing.Point(110, 246);
+            this.lblNomeTime2.Name = "lblNomeTime2";
+            this.lblNomeTime2.Size = new System.Drawing.Size(26, 27);
+            this.lblNomeTime2.TabIndex = 5;
+            this.lblNomeTime2.Text = "  ";
             // 
-            // lblNumero2
+            // lblNomeTime
             // 
-            this.lblNumero2.BackColor = System.Drawing.Color.White;
-            this.lblNumero2.Font = new System.Drawing.Font("Microsoft Sans Serif", 42F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumero2.Location = new System.Drawing.Point(216, 159);
-            this.lblNumero2.Name = "lblNumero2";
-            this.lblNumero2.Size = new System.Drawing.Size(72, 64);
-            this.lblNumero2.TabIndex = 8;
-            this.lblNumero2.Text = "   ";
-            this.lblNumero2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblNomeTime.AutoSize = true;
+            this.lblNomeTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomeTime.Location = new System.Drawing.Point(23, 246);
+            this.lblNomeTime.Name = "lblNomeTime";
+            this.lblNomeTime.Size = new System.Drawing.Size(81, 25);
+            this.lblNomeTime.TabIndex = 4;
+            this.lblNomeTime.Text = "NOME:";
             // 
-            // lblNumero3
+            // lblNomePopular
             // 
-            this.lblNumero3.BackColor = System.Drawing.Color.White;
-            this.lblNumero3.Font = new System.Drawing.Font("Microsoft Sans Serif", 42F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumero3.Location = new System.Drawing.Point(294, 159);
-            this.lblNumero3.Name = "lblNumero3";
-            this.lblNumero3.Size = new System.Drawing.Size(72, 64);
-            this.lblNumero3.TabIndex = 9;
-            this.lblNumero3.Text = "   ";
-            this.lblNumero3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblNomePopular.AutoSize = true;
+            this.lblNomePopular.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomePopular.Location = new System.Drawing.Point(23, 300);
+            this.lblNomePopular.Name = "lblNomePopular";
+            this.lblNomePopular.Size = new System.Drawing.Size(187, 25);
+            this.lblNomePopular.TabIndex = 3;
+            this.lblNomePopular.Text = "NOME POPULAR:";
             // 
-            // lblNumero4
+            // lblNumero
             // 
-            this.lblNumero4.BackColor = System.Drawing.Color.White;
-            this.lblNumero4.Font = new System.Drawing.Font("Microsoft Sans Serif", 42F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumero4.Location = new System.Drawing.Point(372, 159);
-            this.lblNumero4.Name = "lblNumero4";
-            this.lblNumero4.Size = new System.Drawing.Size(72, 64);
-            this.lblNumero4.TabIndex = 10;
-            this.lblNumero4.Text = "   ";
-            this.lblNumero4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblNumero.AutoSize = true;
+            this.lblNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumero.Location = new System.Drawing.Point(23, 177);
+            this.lblNumero.Name = "lblNumero";
+            this.lblNumero.Size = new System.Drawing.Size(111, 25);
+            this.lblNumero.TabIndex = 2;
+            this.lblNumero.Text = "NÚMERO:";
+            // 
+            // lblExibicaoTime
+            // 
+            this.lblExibicaoTime.AutoSize = true;
+            this.lblExibicaoTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblExibicaoTime.Location = new System.Drawing.Point(237, 59);
+            this.lblExibicaoTime.Name = "lblExibicaoTime";
+            this.lblExibicaoTime.Size = new System.Drawing.Size(84, 33);
+            this.lblExibicaoTime.TabIndex = 1;
+            this.lblExibicaoTime.Text = "TIME";
+            // 
+            // picTimes
+            // 
+            this.picTimes.BackColor = System.Drawing.Color.White;
+            this.picTimes.Location = new System.Drawing.Point(403, 14);
+            this.picTimes.Name = "picTimes";
+            this.picTimes.Size = new System.Drawing.Size(128, 122);
+            this.picTimes.TabIndex = 0;
+            this.picTimes.TabStop = false;
             // 
             // panel2
             // 
@@ -425,6 +381,16 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(940, 108);
             this.panel2.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(136, 36);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(746, 33);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "SUPREMO TRIBUNAL ELEITORAL DOS TIMES - STET";
             // 
             // picLogo
             // 
@@ -438,15 +404,57 @@
             this.picLogo.TabIndex = 7;
             this.picLogo.TabStop = false;
             // 
-            // label1
+            // lblNum1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(136, 36);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(746, 33);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "SUPREMO TRIBUNAL ELEITORAL DOS TIMES - STET";
+            this.lblNum1.AutoSize = true;
+            this.lblNum1.BackColor = System.Drawing.Color.White;
+            this.lblNum1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.lblNum1.Font = new System.Drawing.Font("Microsoft Sans Serif", 44.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNum1.Location = new System.Drawing.Point(140, 157);
+            this.lblNum1.Name = "lblNum1";
+            this.lblNum1.Size = new System.Drawing.Size(77, 67);
+            this.lblNum1.TabIndex = 7;
+            this.lblNum1.Text = "   ";
+            this.lblNum1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblNum2
+            // 
+            this.lblNum2.AutoSize = true;
+            this.lblNum2.BackColor = System.Drawing.Color.White;
+            this.lblNum2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.lblNum2.Font = new System.Drawing.Font("Microsoft Sans Serif", 44.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNum2.Location = new System.Drawing.Point(223, 157);
+            this.lblNum2.Name = "lblNum2";
+            this.lblNum2.Size = new System.Drawing.Size(77, 67);
+            this.lblNum2.TabIndex = 8;
+            this.lblNum2.Text = "   ";
+            this.lblNum2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblNum3
+            // 
+            this.lblNum3.AutoSize = true;
+            this.lblNum3.BackColor = System.Drawing.Color.White;
+            this.lblNum3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.lblNum3.Font = new System.Drawing.Font("Microsoft Sans Serif", 44.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNum3.Location = new System.Drawing.Point(306, 157);
+            this.lblNum3.Name = "lblNum3";
+            this.lblNum3.Size = new System.Drawing.Size(77, 67);
+            this.lblNum3.TabIndex = 9;
+            this.lblNum3.Text = "   ";
+            this.lblNum3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblNum4
+            // 
+            this.lblNum4.AutoSize = true;
+            this.lblNum4.BackColor = System.Drawing.Color.White;
+            this.lblNum4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.lblNum4.Font = new System.Drawing.Font("Microsoft Sans Serif", 44.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNum4.Location = new System.Drawing.Point(389, 157);
+            this.lblNum4.Name = "lblNum4";
+            this.lblNum4.Size = new System.Drawing.Size(77, 67);
+            this.lblNum4.TabIndex = 10;
+            this.lblNum4.Text = "   ";
+            this.lblNum4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmUrna
             // 
@@ -458,7 +466,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.pnlExibicao);
             this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmUrna";
             this.Text = "SUPREMO TRIBUNAL ELEITORAL DOS TIMES - STET";
@@ -494,10 +502,6 @@
         private System.Windows.Forms.Button btn2;
         private System.Windows.Forms.Button btn1;
         private System.Windows.Forms.Panel pnlExibicao;
-        private System.Windows.Forms.Label lblNumero4;
-        private System.Windows.Forms.Label lblNumero3;
-        private System.Windows.Forms.Label lblNumero2;
-        private System.Windows.Forms.Label lblNumero1;
         private System.Windows.Forms.Label lblNomePopular2;
         private System.Windows.Forms.Label lblNomeTime2;
         private System.Windows.Forms.Label lblNomeTime;
@@ -508,6 +512,10 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox picLogo;
+        private System.Windows.Forms.Label lblNum4;
+        private System.Windows.Forms.Label lblNum3;
+        private System.Windows.Forms.Label lblNum2;
+        private System.Windows.Forms.Label lblNum1;
     }
 }
 
