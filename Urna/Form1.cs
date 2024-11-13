@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Media;
@@ -137,21 +138,20 @@ namespace Urna
             {
                 lblNumero2.Text = digito;
             }
-
             else if (string.IsNullOrEmpty(lblNumero3.Text))
             {
                 lblNumero3.Text = digito;
             }
-
             else if (string.IsNullOrEmpty(lblNumero4.Text))
             {
                 lblNumero4.Text = digito;
+
+                // Todos os números preenchidos, então tenta encontrar o candidato
                 PreencherCandidato(lblNumero1.Text, lblNumero2.Text, lblNumero3.Text, lblNumero4.Text);
             }
-
-            Console.WriteLine($"Números digitados: {lblNumero1.Text} {lblNumero2.Text} {lblNumero3.Text} {lblNumero4.Text}");
-
         }
+
+
 
         private void PreencherCandidato(string d1, string d2, string d3, string d4)
         {
