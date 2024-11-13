@@ -414,8 +414,9 @@
             // 
             // pnlFim
             // 
+            this.pnlFim.BackColor = System.Drawing.Color.White;
             this.pnlFim.Controls.Add(this.lblFim);
-            this.pnlFim.Location = new System.Drawing.Point(987, 15);
+            this.pnlFim.Location = new System.Drawing.Point(987, 38);
             this.pnlFim.Name = "pnlFim";
             this.pnlFim.Size = new System.Drawing.Size(548, 397);
             this.pnlFim.TabIndex = 3;
